@@ -7,5 +7,5 @@ class HandlerInfo():
     ultrasonic_info = None
     ar_info1 = None
     ar_info2 = None
-    laps_count = 2
+    laps_count = 0
     is_done = False
