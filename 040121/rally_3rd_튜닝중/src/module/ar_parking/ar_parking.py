@@ -105,9 +105,9 @@ class ParkingBehavior():
         backward_info.back_right = 65
 
         forward_info = UltrasonicInfo()
-        forward_info.back_left = 15
+        forward_info.back_left = 20
         forward_info.back_middle = 25
-        forward_info.back_right = 15
+        forward_info.back_right = 20
 
         while True:
             print("main ultrasonic", self.ultrasonic_info)
