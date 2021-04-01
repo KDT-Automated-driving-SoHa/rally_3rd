@@ -206,7 +206,7 @@ class ParkingBehavior():
                     # self.angle = k1 * math.atan((max(self.xs) - 50) / max(self.zs)) + self.pitch * k2
                     angle = (self.ar_info2.dx - 65) * k1 + self.ar_info2.pitch * k2  # better working
                     speed = 23
-                    yield False, angle, speed
+                    yield False, angle-5, speed
 
             angle = 0
             speed = 23
