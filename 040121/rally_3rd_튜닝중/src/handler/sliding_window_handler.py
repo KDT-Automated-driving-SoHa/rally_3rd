@@ -17,7 +17,7 @@ class SlidingWindowHandler(AbstractHandler):
 
     def __init__(self):
         # 슬라이딩 윈도우
-        self.filter_deg = DiscreateFilter(f_cut=4000, freq=10000)
+        self.filter_deg = DiscreateFilter(f_cut=8000, freq=10000)
 
         # 장애물 회피
         self.tfcp = None
